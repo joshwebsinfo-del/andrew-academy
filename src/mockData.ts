@@ -92,10 +92,7 @@ export const INITIAL_PHONES: Phone[] = [
     features: ['Glyph Interface Lights', 'Nothing OS 2.0 widgets', 'Eco-friendly recycled aluminum', 'Transparent back glass design']
   }
 ];
-
-    coordinates: { x: 35, y: 38 },
-    description: 'Our state-of-the-art ultimate experience hub. Includes an elite service kiosk, complete hands-on display counters, and direct on-site stock pickup.'
-  },
+export const INITIAL_LOCATIONS: MapLocation[] = [
   {
     id: 'loc-2',
     name: 'Metro Galleria Mall Outlet',
