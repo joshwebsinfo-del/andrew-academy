@@ -1,8 +1,8 @@
 services:
   - type: web
     name: andrew-academy
-    env: node
+    env: docker
     plan: free
-    buildCommand: "npm install && npm run build"
-    startCommand: "node server.js"
-    # If you later decide to serve as static site, replace type with static and set staticPublishPath: dist
+    dockerfilePath: Dockerfile
+    dockerContext: .
+    # Using Dockerfile for build and runtime
